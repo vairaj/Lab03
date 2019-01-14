@@ -13,6 +13,8 @@ Long sum breaks when n = 475556966.
 <br>
 Float product breaks when n = 32.
 <br>
+Double product breaks when n = 32.
+<br>
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
 <br>
