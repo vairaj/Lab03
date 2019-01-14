@@ -4,6 +4,10 @@ lab for week of 10/1/18
 To determine when overflow occurs, simply examine the sum  returned.
 <br>
 A negative sum will be returned when overflow has occurred and two positive numbers are added. 
+<br>
+Short breaks when n=256.
+<br>
+
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
 <br>
