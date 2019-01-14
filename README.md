@@ -6,7 +6,7 @@ To determine when overflow occurs, simply examine the value returned.
 A negative sum will be returned when overflow has occurred and two positive numbers are added. 
 <br>
 A product of zero or a negative product will be returned when overflow has occured for n! where n is positive.
-<br>
+<br><br>
 Short sum breaks when n = 256.
 <br>
 Long sum breaks when n = 475556966.
