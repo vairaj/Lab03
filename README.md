@@ -17,11 +17,11 @@ Double product breaks when n = 32.
 <br><br>
 Float and double both round their values, so when dealing with larger decimals, there is rounding error when computing (1/n)*n.
 <br>
-Double can store more characters, so it breaks at larger values than float does for the same computation.
+Double can store more precision characters, so it breaks at larger values than float does for the same computation.
 <br><br>
-(7)
+(7/8)
 <br>
-The code using float breaks at the very end. It includes the upper limit of i in its computations instead of stopping before reaching it. 
+The code using float breaks at the very end. It includes the upper limit of i in its computations instead of stopping before reaching it. When using double it works correctly and does not include the upper limit. This is because of rounding error: float cannot store the values exactly as they are repeating fractions in binary, so does not iterate the correct number of times.
 <br>
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
@@ -31,3 +31,8 @@ http://www.c-jump.com/CIS77/CPU/Overflow/lecture.html
 https://en.cppreference.com/w/cpp/language/types
 <br>
 https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
+<br>
+https://www.dummies.com/programming/cpp/the-limits-of-the-double-variable-in-c/
+<br>
+https://wiki.sei.cmu.edu/confluence/display/c/FLP30-C.+Do+not+use+floating-point+variables+as+loop+counters
+<br>
