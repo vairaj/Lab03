@@ -12,7 +12,7 @@ A product of zero or a negative product will be returned when overflow has occur
 Short sum breaks when n = 256.
 <br>
 Long sum breaks when n = 475556966.
-<br>
+<br><br>
 (4/5)
 <br>
 Float product breaks when n = 32.
