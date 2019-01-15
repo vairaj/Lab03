@@ -1,6 +1,8 @@
 # Lab03
 lab for week of 10/1/18
 <h1>Explanations</h1>
+(1/2/3)
+<br>
 To determine when overflow occurs, simply examine the value returned.
 <br>
 A negative sum will be returned when overflow has occurred and two positive numbers are added. 
@@ -11,10 +13,14 @@ Short sum breaks when n = 256.
 <br>
 Long sum breaks when n = 475556966.
 <br>
+(4/5)
+<br>
 Float product breaks when n = 32.
 <br>
 Double product breaks when n = 32.
 <br><br>
+(6)
+<br>
 Float and double both round their values, so when dealing with larger decimals, there is rounding error when computing (1/n)*n.
 <br>
 Double can store more precision characters, so it breaks at larger values than float does for the same computation.
