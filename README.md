@@ -29,3 +29,5 @@ https://www.dreamincode.net/forums/topic/24152-systempause%3B/
 http://www.c-jump.com/CIS77/CPU/Overflow/lecture.html
 <br>
 https://en.cppreference.com/w/cpp/language/types
+<br>
+https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
