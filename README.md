@@ -14,7 +14,7 @@ Long sum breaks when n = 475556966.
 Float product breaks when n = 32.
 <br>
 Double product breaks when n = 32.
-<br>
+<br><br>
 Float and double both round their values, so when dealing with larger decimals, there is rounding error when computing (1/n)*n.
 <br>
 Double can store more characters, so it breaks at larger values than float does for the same computation.
