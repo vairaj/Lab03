@@ -21,7 +21,7 @@ Double can store more characters, so it breaks at larger values than float does 
 <br><br>
 (7)
 <br>
-The code breaks when using float at the very end. It includes the upper limit of i in its computations instead of stopping before reaching it. 
+The code using float breaks at the very end. It includes the upper limit of i in its computations instead of stopping before reaching it. 
 <br>
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
