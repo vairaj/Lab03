@@ -15,6 +15,8 @@ Float product breaks when n = 32.
 <br>
 Double product breaks when n = 32.
 <br>
+Float and double both round their values, so when dealing with larger decimals, there is rounding error.
+<br>
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
 <br>
