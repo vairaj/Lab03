@@ -18,6 +18,10 @@ Double product breaks when n = 32.
 Float and double both round their values, so when dealing with larger decimals, there is rounding error when computing (1/n)*n.
 <br>
 Double can store more characters, so it breaks at larger values than float does for the same computation.
+<br><br>
+(7)
+<br>
+The code breaks when using float at the very end. It includes the upper limit of i in its computations instead of stopping before reaching it. 
 <br>
 <h2>references</h2>
 https://www.dreamincode.net/forums/topic/24152-systempause%3B/
